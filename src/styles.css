@@ -186,24 +186,9 @@ hr {
     text-decoration: none;
     color: rgb(247, 3, 3);
 }
-
-.hamburger {
-    display: none;
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .project-container {
+    display: flex;
+    justify-content: space-around;
 }
-
-.hamburger:focus {
-    inherits: 5;
-}
-
-@media only screen and(max-width:1000px) {
-    .hamburger {
-        display: block;
-        border: o;
-        background-color: red;
-        color: white;
-        font-size: 30px;
-    }
-    .ul {
-        display: none;
-    }
 }
